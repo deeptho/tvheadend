@@ -147,7 +147,7 @@ typedef struct ca_info {
 } ca_info_t;
 
 /**
- * caid <-> ecm mapping 
+ * caid <-> ecm mapping
  */
 typedef struct capmt_caid_ecm {
   /** ca system id */
@@ -781,7 +781,7 @@ capmt_flush_queue(capmt_t *capmt, int del_only)
 /**
  *
  */
-static void 
+static void
 capmt_send_stop(capmt_service_t *t)
 {
   capmt_t *capmt = t->ct_capmt;
@@ -845,7 +845,7 @@ capmt_send_stop(capmt_service_t *t)
     /* update total length */
     buf[4]  = ((pos - 6) >> 8);
     buf[5]  = ((pos - 6) & 0xFF);
-  
+
     capmt_queue_msg(capmt, t->ct_adapter, service_id16(s),
                     buf, pos, CAPMT_MSG_CLEAR);
   }
@@ -888,7 +888,7 @@ capmt_init_demuxes(capmt_t *capmt)
 /**
  * global_lock is held
  */
-static void 
+static void
 capmt_service_destroy(th_descrambler_t *td)
 {
   capmt_service_t *ct = (capmt_service_t *)td, *ct2;
@@ -909,7 +909,7 @@ capmt_service_destroy(th_descrambler_t *td)
   if (!oscam_new)
     capmt_send_stop(ct);
 
-  while (!LIST_EMPTY(&ct->ct_caid_ecm)) { 
+  while (!LIST_EMPTY(&ct->ct_caid_ecm)) {
     /* List Deletion. */
     cce = LIST_FIRST(&ct->ct_caid_ecm);
     LIST_REMOVE(cce, cce_link);
@@ -1275,7 +1275,7 @@ capmt_process_notify(capmt_t *capmt, uint8_t adapter,
                        protocol);
   }
   tvh_mutex_unlock(&capmt->capmt_mutex);
-}                     
+}
 
 static int
 capmt_msg_size(capmt_t *capmt, sbuf_t *sb, int offset)
@@ -1497,7 +1497,7 @@ capmt_analyze_cmd(capmt_t *capmt, uint32_t cmd, int adapter, sbuf_t *sb, int off
     capmt_process_notify(capmt, adapter, sid, caid, provid,
                          cardsystem, pid, ecmtime, hops, reader,
                          from, protocol);
-                         
+
     tvhdebug(LS_CAPMT, "%s: ECM_INFO: adapter=%d sid=%d caid=%04X(%s) pid=%04X provid=%06X ecmtime=%d hops=%d reader=%s from=%s protocol=%s",
              capmt_name(capmt), adapter, sid, caid, cardsystem, pid, provid, ecmtime, hops, reader, from, protocol);
 
@@ -1560,7 +1560,7 @@ show_connection(capmt_t *capmt, const char *what)
 }
 
 #if CONFIG_LINUXDVB
-static void 
+static void
 handle_ca0(capmt_t *capmt)
 {
   int i, ret, recvsock, nfds, cmd_size;
@@ -1625,7 +1625,7 @@ handle_ca0(capmt_t *capmt)
         adapter->ca_sock = -1;
         continue;
       }
-      
+
       if (ret < 0)
         continue;
 
@@ -1697,12 +1697,12 @@ handle_single(capmt_t *capmt)
         capmt_flush_queue(capmt, 0);
         continue;
       }
-      
+
       tvhtrace(LS_CAPMT, "%s: thread received shutdown", capmt_name(capmt));
       atomic_set(&capmt->capmt_running, 0);
       continue;
     }
-    
+
     if (reconnect != capmt->capmt_sock_reconnect[0]) {
       buffer.sb_bswap = 0;
       sbuf_reset(&buffer, 1024);
@@ -1718,7 +1718,7 @@ handle_single(capmt_t *capmt)
       capmt_poll_rem(capmt, recvsock);
       break;
     }
-    
+
     if (ret < 0)
       continue;
 
@@ -1787,7 +1787,7 @@ handle_single(capmt_t *capmt)
 
 #if CONFIG_LINUXDVB
 #ifdef CAPMT_OSCAM_SO_WRAPPER
-static void 
+static void
 handle_ca0_wrapper(capmt_t *capmt)
 {
   uint8_t buffer[18];
@@ -1867,7 +1867,7 @@ capmt_create_udp_socket(capmt_t *capmt, int *socket, int port)
  *
  */
 static void *
-capmt_thread(void *aux) 
+capmt_thread(void *aux)
 {
   capmt_t *capmt = aux;
   capmt_adapter_t *ca;
@@ -1906,7 +1906,7 @@ capmt_thread(void *aux)
       caclient_set_status((caclient_t *)capmt, CACLIENT_STATUS_NONE);
     else
       caclient_set_status((caclient_t *)capmt, CACLIENT_STATUS_READY);
-    
+
     tvh_mutex_lock(&capmt->capmt_mutex);
 
     while(atomic_get(&capmt->capmt_running) && capmt->cac_enabled == 0)
@@ -2472,7 +2472,7 @@ capmt_service_start(caclient_t *cac, service_t *s)
   int tuner = -1, i, change = 0;
   char buf[512];
   caid_t *c, sca;
-  
+
   lock_assert(&global_lock);
 
   /* Validate */
