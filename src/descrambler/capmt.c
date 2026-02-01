@@ -85,9 +85,9 @@ typedef struct dmx_filter {
 
 // ca_pmt_descriptor types
 #define CAPMT_DESC_ENIGMA  0x81
-#define CAPMT_DESC_DEMUX   0x82
-#define CAPMT_DESC_ADAPTER 0x83
-#define CAPMT_DESC_PID     0x84
+#define CAPMT_DESC_DEMUX   0x82 //demux_ca_mask_device_descriptor   |  deprecated |
+#define CAPMT_DESC_ADAPTER 0x83 //adapter_device_descriptor         |  mandatory
+#define CAPMT_DESC_PID     0x84 // pmt_pid_descriptor                |  mandatory
 
 // message type
 #define CAPMT_MSG_FAST     0x01

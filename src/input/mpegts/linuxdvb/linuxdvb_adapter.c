@@ -635,13 +635,13 @@ linuxdvb_adapter_del ( const char *path )
     if (!th) return;
 
     idnode_save_check(&la->th_id, 0);
-  
+
     /* Delete the frontends */
     for (lfe = LIST_FIRST(&la->la_frontends); lfe != NULL; lfe = lfe_next) {
       lfe_next = LIST_NEXT(lfe, lfe_link);
       linuxdvb_frontend_destroy(lfe);
     }
-    
+
 #if ENABLE_LINUXDVB_CA
     /* Delete the CA devices */
     for (lcat = LIST_FIRST(&la->la_ca_transports); lcat != NULL; lcat = lcat_next) {
@@ -653,7 +653,7 @@ linuxdvb_adapter_del ( const char *path )
     /* Free memory */
     free(la->la_rootpath);
     free(la->la_name);
-    
+
     /* Delete */
     tvh_hardware_delete((tvh_hardware_t*)la);
 
@@ -726,7 +726,7 @@ dev_delete ( fsmonitor_t *fsm, const char *path )
     fsmonitor_del("/dev/dvb", &devdvbmon);
 }
 
-static fsmonitor_t devmon = { 
+static fsmonitor_t devmon = {
   .fsm_create = dev_create,
   .fsm_delete = dev_delete
 };
