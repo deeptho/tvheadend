@@ -31,7 +31,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <assert.h>
-#include <linux/dvb/dmx.h>
+#include "neumo-dmx.h"
 #include <linux/dvb/frontend.h>
 #include <linux/dvb/ca.h>
 
@@ -288,7 +288,7 @@ linuxdvb_ca_thread ( void *aux )
   int r, monitor, quit = 0, cquit, waitms, busy;
   linuxdvb_ca_write_t *lcw;
   en50221_slot_t *slot;
-  
+
   tvhtrace(LS_EN50221, "ca thread start");
   ev = malloc(sizeof(*ev) * evsize);
   poll = tvhpoll_create(evsize + 1);

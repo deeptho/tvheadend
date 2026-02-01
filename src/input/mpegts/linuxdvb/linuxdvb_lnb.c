@@ -27,7 +27,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <assert.h>
-#include <linux/dvb/dmx.h>
+#include "neumo-dmx.h"
 
 /* **************************************************************************
  * Class definition
@@ -94,7 +94,7 @@ const idclass_t linuxdvb_lnb_class =
  */
 
 static uint32_t
-linuxdvb_lnb_standard_freq 
+linuxdvb_lnb_standard_freq
   ( linuxdvb_lnb_t *l, dvb_mux_t *lm )
 {
   linuxdvb_lnb_conf_t *lnb = (linuxdvb_lnb_conf_t*)l;
@@ -158,7 +158,7 @@ linuxdvb_lnb_inverted_pol
   return !linuxdvb_lnb_standard_pol(l, lm);
 }
 
-static int 
+static int
 linuxdvb_lnb_standard_tune
   ( linuxdvb_diseqc_t *ld, dvb_mux_t *lm,
     linuxdvb_satconf_t *lsp, linuxdvb_satconf_ele_t *ls,

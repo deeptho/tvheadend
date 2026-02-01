@@ -28,7 +28,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <assert.h>
-#include <linux/dvb/dmx.h>
+#include "neumo-dmx.h"
 #include <linux/dvb/frontend.h>
 
 /* **************************************************************************
