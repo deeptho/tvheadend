@@ -33,7 +33,7 @@
 #include <fcntl.h>
 #include <openssl/sha.h>
 
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 #include <linux/dvb/ca.h>
 
 #define FE_PATH  "%s/frontend%d"

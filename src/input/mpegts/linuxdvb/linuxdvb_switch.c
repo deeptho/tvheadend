@@ -29,7 +29,7 @@
 #include <fcntl.h>
 #include <assert.h>
 #include "neumo-dmx.h"
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 
 /* **************************************************************************
  * Class definition

@@ -29,7 +29,7 @@
 #include <fcntl.h>
 #include <assert.h>
 #include <linux/dvb/dmx.h>
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 
 static struct linuxdvb_satconf_type *
 linuxdvb_satconf_type_find ( const char *type );

@@ -32,7 +32,7 @@
 #include <fcntl.h>
 #include <assert.h>
 #include "neumo-dmx.h"
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 #include <linux/dvb/ca.h>
 
 #include "../en50221/en50221_capmt.h"

@@ -32,7 +32,7 @@
 #include <unistd.h>
 #include <math.h>
 
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 
 /* **************************************************************************
  * Static definition

@@ -32,7 +32,7 @@
 #include <assert.h>
 //#include <linux/dvb/dmx.h>
 #include "neumo-dmx.h"
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 
 #define NOSIGNAL(x) (((x) & FE_HAS_SIGNAL) == 0)
 
@@ -1922,6 +1922,8 @@ linuxdvb_frontend_tune0
 #elif DVB_VER_ATLEAST(5,3)
       S2CMD(DTV_DVBT2_PLP_ID,    r);
 #endif
+      S2CMD(DTV_PLS_MODE, dmc->dmc_fe_pls_mode & 0x3);
+      S2CMD(DTV_PLS_CODE, (dmc->dmc_fe_pls_code & 0x3FFFF));
     }
 
   /* ATSC-T */

@@ -35,7 +35,7 @@
 #include <sys/stat.h>
 #include <linux/dvb/ca.h>
 #include <linux/dvb/dmx.h>
-#include <linux/dvb/frontend.h>
+#include "neumo-frontend.h"
 #include <linux/ioctl.h>
 #include <stdio.h>
 #include <time.h>
