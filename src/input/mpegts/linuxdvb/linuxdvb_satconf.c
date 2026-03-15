@@ -210,7 +210,7 @@ linuxdvb_satconf_class_orbitalpos_set
       c--;
     }
   }
-  
+
   return 1;
 }
 
@@ -239,9 +239,9 @@ linuxdvb_satconf_class_highvol_list ( void *o, const char *lang )
 /*
  * Generic satconf
  */
- 
+
 CLASS_DOC(linuxdvb_satconf) /* Referenced by multiple classes. */
- 
+
 const idclass_t linuxdvb_satconf_class =
 {
   .ic_class      = "linuxdvb_satconf",
@@ -1006,7 +1006,7 @@ linuxdvb_satconf_ele_tune ( linuxdvb_satconf_ele_t *lse )
     }
   }
 
-  /* Diseqc */  
+  /* Diseqc */
   ls->ls_active_diseqc = NULL;
   for (i = ls->ls_diseqc_idx; i < ARRAY_SIZE(lds); i++) {
     if (!lds[i]) continue;
@@ -1214,7 +1214,7 @@ linuxdvb_satconf_create
 
   lst = linuxdvb_satconf_type_find(type);
   assert(lst);
-  
+
   linuxdvb_satconf_t *ls = calloc(1, sizeof(linuxdvb_satconf_t));
   ls->ls_frontend = (mpegts_input_t*)lfe;
   ls->ls_type     = lst->type;
@@ -1252,11 +1252,11 @@ linuxdvb_satconf_create
         lse = linuxdvb_satconf_ele_create0(htsmsg_get_str(e, "uuid"), e, ls);
       }
     }
-    
+
     /* Load node */
     idnode_load(&ls->ls_id, conf);
   }
-  
+
   /* Create elements */
   lse = TAILQ_FIRST(&ls->ls_elements);
   for (i = 0; i < lst->ports; i++) {
@@ -1293,7 +1293,7 @@ linuxdvb_satconf_save ( linuxdvb_satconf_t *ls, htsmsg_t *m )
   htsmsg_add_str(m, "type", ls->ls_type);
   idnode_save(&ls->ls_id, m);
   l = htsmsg_create_list();
-  TAILQ_FOREACH(lse, &ls->ls_elements, lse_link){ 
+  TAILQ_FOREACH(lse, &ls->ls_elements, lse_link){
     e = htsmsg_create_map();
     idnode_save(&lse->lse_id, e);
     htsmsg_add_str(e, "uuid", idnode_uuid_as_str(&lse->lse_id, ubuf));
@@ -1406,7 +1406,7 @@ static int
 linuxdvb_satconf_ele_class_lnbtype_set ( void *o, const void *p )
 {
   linuxdvb_satconf_ele_t *ls  = o;
-  const char             *str = p; 
+  const char             *str = p;
   if (ls->lse_lnb && !strcmp(str ?: "", ls->lse_lnb->ld_type))
     return 0;
   if (ls->lse_lnb) linuxdvb_lnb_destroy(ls->lse_lnb);
@@ -1447,7 +1447,7 @@ static int
 linuxdvb_satconf_ele_class_switchtype_set ( void *o, const void *p )
 {
   linuxdvb_satconf_ele_t *ls  = o;
-  const char             *str = p; 
+  const char             *str = p;
   if (ls->lse_switch && !strcmp(str ?: "", ls->lse_switch->ld_type))
     return 0;
   if (ls->lse_switch) linuxdvb_switch_destroy(ls->lse_switch);
@@ -1467,7 +1467,7 @@ static int
 linuxdvb_satconf_ele_class_rotortype_set ( void *o, const void *p )
 {
   linuxdvb_satconf_ele_t *ls  = o;
-  const char             *str = p; 
+  const char             *str = p;
   if (ls->lse_rotor && !strcmp(str ?: "", ls->lse_rotor->ld_type))
     return 0;
   if (ls->lse_rotor) linuxdvb_rotor_destroy(ls->lse_rotor);
@@ -1756,7 +1756,7 @@ linuxdvb_diseqc_create0
   assert(type != NULL);
   ld->ld_type    = strdup(type);
   ld->ld_satconf = parent;
-  
+
   /* Load config */
   if (conf)
     idnode_load(&ld->ld_id, conf);
