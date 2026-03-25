@@ -720,7 +720,7 @@ linuxdvb_frontend_stop_mux
         lfe2->lfe_status  = 0;
         lfe2->lfe_status2 = 0;
         /* Ensure it won't happen immediately */
-        mtimer_arm_rel(&lfe2->lfe_monitor_timer, linuxdvb_frontend_monitor, lfe, sec2mono(2));
+        mtimer_arm_rel(&lfe2->lfe_monitor_timer, linuxdvb_frontend_monitor, lfe2, sec2mono(2));
         if (lfe2->lfe_satconf)
           linuxdvb_satconf_post_stop_mux(lfe2->lfe_satconf);
         lfe2->lfe_in_setup = 0;
