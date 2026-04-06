@@ -808,7 +808,8 @@ end:
     lfe->lfe_refcount--;
 		if (lfe2 && lfe2->lfe_satconf && --lfe2->lfe_refcount == 0) {
     linuxdvb_satconf_post_stop_mux(lfe2->lfe_satconf);
-  }
+		}
+	}
   return res;
 }
 
