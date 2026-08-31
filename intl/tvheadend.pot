@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-12 02:53+0000\n"
+"POT-Creation-Date: 2026-08-31 08:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "# Services"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:170
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:171
 msgid "# tune repeats"
 msgstr ""
 
@@ -461,7 +461,7 @@ msgstr ""
 msgid "ATSC-C Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:625
+#: src/input/mpegts/mpegts_mux_dvb.c:643
 msgid "ATSC-C multiplex"
 msgstr ""
 
@@ -473,7 +473,7 @@ msgstr ""
 msgid "ATSC-T Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:584
+#: src/input/mpegts/mpegts_mux_dvb.c:602
 msgid "ATSC-T multiplex"
 msgstr ""
 
@@ -481,20 +481,20 @@ msgstr ""
 #: src/input/mpegts/mpegts_mux_dvb.c:237 src/input/mpegts/mpegts_mux_dvb.c:244
 #: src/input/mpegts/mpegts_mux_dvb.c:249 src/input/mpegts/mpegts_mux_dvb.c:254
 #: src/input/mpegts/mpegts_mux_dvb.c:259 src/input/mpegts/mpegts_mux_dvb.c:327
-#: src/input/mpegts/mpegts_mux_dvb.c:332 src/input/mpegts/mpegts_mux_dvb.c:599
-#: src/input/mpegts/mpegts_mux_dvb.c:647 src/input/mpegts/mpegts_mux_dvb.c:652
-#: src/input/mpegts/mpegts_mux_dvb.c:761 src/input/mpegts/mpegts_mux_dvb.c:768
-#: src/input/mpegts/mpegts_mux_dvb.c:774 src/input/mpegts/mpegts_mux_dvb.c:778
-#: src/input/mpegts/mpegts_mux_dvb.c:797 src/input/mpegts/mpegts_mux_dvb.c:801
-#: src/input/mpegts/mpegts_mux_dvb.c:820 src/input/mpegts/mpegts_mux_dvb.c:824
-#: src/input/mpegts/mpegts_mux_dvb.c:875 src/input/mpegts/mpegts_mux_dvb.c:880
-#: src/input/mpegts/mpegts_mux_dvb.c:1032
-#: src/input/mpegts/mpegts_mux_dvb.c:1039
-#: src/input/mpegts/mpegts_mux_dvb.c:1044
-#: src/input/mpegts/mpegts_mux_dvb.c:1051
-#: src/input/mpegts/mpegts_mux_dvb.c:1056
-#: src/input/mpegts/mpegts_mux_dvb.c:1061
-#: src/input/mpegts/mpegts_mux_dvb.c:1066
+#: src/input/mpegts/mpegts_mux_dvb.c:332 src/input/mpegts/mpegts_mux_dvb.c:617
+#: src/input/mpegts/mpegts_mux_dvb.c:665 src/input/mpegts/mpegts_mux_dvb.c:670
+#: src/input/mpegts/mpegts_mux_dvb.c:779 src/input/mpegts/mpegts_mux_dvb.c:786
+#: src/input/mpegts/mpegts_mux_dvb.c:792 src/input/mpegts/mpegts_mux_dvb.c:796
+#: src/input/mpegts/mpegts_mux_dvb.c:815 src/input/mpegts/mpegts_mux_dvb.c:819
+#: src/input/mpegts/mpegts_mux_dvb.c:838 src/input/mpegts/mpegts_mux_dvb.c:842
+#: src/input/mpegts/mpegts_mux_dvb.c:893 src/input/mpegts/mpegts_mux_dvb.c:898
+#: src/input/mpegts/mpegts_mux_dvb.c:1050
+#: src/input/mpegts/mpegts_mux_dvb.c:1057
+#: src/input/mpegts/mpegts_mux_dvb.c:1062
+#: src/input/mpegts/mpegts_mux_dvb.c:1069
+#: src/input/mpegts/mpegts_mux_dvb.c:1074
+#: src/input/mpegts/mpegts_mux_dvb.c:1079
+#: src/input/mpegts/mpegts_mux_dvb.c:1084
 msgid "AUTO"
 msgstr ""
 
@@ -621,7 +621,7 @@ msgstr ""
 msgid "Advanced (non-universal LNBs, rotors, etc.)"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:211
+#: src/transcoding/codec/profile_class.c:244
 msgid "Advanced Settings"
 msgstr ""
 
@@ -708,15 +708,15 @@ msgstr ""
 msgid "All: Record once per week"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:153
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:154
 msgid "Allow all PIDs"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:154
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:155
 msgid "Allow all PIDs (no filter) when the 'Maximum PIDs' limit is reached."
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:246
+#: src/transcoding/codec/profile_video_class.c:282
 msgid "Allow control for scaling Up&Down, Up or Down"
 msgstr ""
 
@@ -797,11 +797,11 @@ msgid ""
 "option."
 msgstr ""
 
-#: src/channels.c:426
+#: src/channels.c:431
 msgid "Always use the name defined by the network."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:240
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:241
 msgid ""
 "Always use the old ioctls to read the linuxdvb status (signal strength, SNR, "
 "error counters). Some drivers are not mature enough to provide the correct "
@@ -979,7 +979,7 @@ msgstr ""
 msgid "Automatic time scheduler entry not found"
 msgstr ""
 
-#: src/config.c:2751
+#: src/config.c:2744
 msgid "Automatically clear input error counters"
 msgstr ""
 
@@ -987,14 +987,14 @@ msgstr ""
 msgid "Automatically delete played recordings"
 msgstr ""
 
-#: src/channels.c:478
+#: src/channels.c:483
 msgid ""
 "Automatically link EPG data to the channel (using the channel name for "
 "matching). If you turn this option off, only the OTA EPG grabber will be "
 "used for this channel unless you've specifically set a different EPG Source."
 msgstr ""
 
-#: src/channels.c:477
+#: src/channels.c:482
 msgid "Automatically map EPG source"
 msgstr ""
 
@@ -1006,7 +1006,7 @@ msgstr ""
 msgid "Automatically map channels defined within the bouquet."
 msgstr ""
 
-#: src/channels.c:425
+#: src/channels.c:430
 msgid "Automatically name from network"
 msgstr ""
 
@@ -1079,8 +1079,8 @@ msgstr ""
 msgid "Ballet"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:225 src/input/mpegts/mpegts_mux_dvb.c:761
-#: src/input/mpegts/mpegts_mux_dvb.c:1032
+#: src/input/mpegts/mpegts_mux_dvb.c:225 src/input/mpegts/mpegts_mux_dvb.c:779
+#: src/input/mpegts/mpegts_mux_dvb.c:1050
 msgid "Bandwidth"
 msgstr ""
 
@@ -1158,7 +1158,7 @@ msgstr ""
 msgid "Bouquet"
 msgstr ""
 
-#: src/channels.c:572
+#: src/channels.c:577
 msgid "Bouquet (auto)"
 msgstr ""
 
@@ -1190,7 +1190,7 @@ msgstr ""
 msgid "Build"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:205
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:206
 msgid ""
 "By default, linuxdvb's status read period is 1000ms (one second). The "
 "accepted range is 250ms to 8000ms. Note that for some hardware or drivers "
@@ -1342,7 +1342,7 @@ msgstr ""
 msgid "CableCARD Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:666
+#: src/input/mpegts/mpegts_mux_dvb.c:684
 msgid "CableCARD multiplex"
 msgstr ""
 
@@ -1350,7 +1350,7 @@ msgstr ""
 msgid "Cache scheme"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:686
+#: src/input/mpegts/mpegts_mux_dvb.c:704
 msgid "Callsign"
 msgstr ""
 
@@ -1388,7 +1388,7 @@ msgstr ""
 
 #: src/tvhlog.c:137 src/service.c:193 src/dvr/dvr_db.c:4584
 #: src/dvr/dvr_autorec.c:1214 src/dvr/dvr_timerec.c:572
-#: src/input/mpegts/mpegts_mux_dvb.c:671
+#: src/input/mpegts/mpegts_mux_dvb.c:689
 msgid "Channel"
 msgstr ""
 
@@ -1505,11 +1505,11 @@ msgstr ""
 msgid "Channels / EPG - Bouquets"
 msgstr ""
 
-#: src/channels.c:1758
+#: src/channels.c:1763
 msgid "Channels / EPG - Channel Tags"
 msgstr ""
 
-#: src/channels.c:405
+#: src/channels.c:410
 msgid "Channels / EPG - Channels"
 msgstr ""
 
@@ -1618,31 +1618,31 @@ msgstr ""
 msgid "Code Word Client (newcamd)"
 msgstr ""
 
-#: src/tvhlog.c:181 src/tvhlog.c:199 src/transcoding/codec/profile_class.c:241
+#: src/tvhlog.c:181 src/tvhlog.c:199 src/transcoding/codec/profile_class.c:274
 msgid "Codec"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:207
+#: src/transcoding/codec/profile_class.c:240
 msgid "Codec Settings"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:250
+#: src/transcoding/codec/profile_class.c:283
 msgid "Codec name"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:251
+#: src/transcoding/codec/profile_class.c:284
 msgid "Codec name."
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:269
+#: src/transcoding/codec/profile_class.c:302
 msgid "Codec status."
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:242
+#: src/transcoding/codec/profile_class.c:275
 msgid "Codec title."
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:260
+#: src/transcoding/codec/profile_class.c:293
 msgid "Codec type."
 msgstr ""
 
@@ -1679,7 +1679,7 @@ msgstr ""
 msgid "Command to move the dish with an external command."
 msgstr ""
 
-#: src/access.c:1987 src/access.c:2333 src/access.c:2472 src/channels.c:1837
+#: src/access.c:1987 src/access.c:2333 src/access.c:2472 src/channels.c:1842
 #: src/esfilter.c:703 src/esfilter.c:799 src/esfilter.c:895 src/esfilter.c:990
 #: src/esfilter.c:1098 src/esfilter.c:1181 src/profile.c:344 src/bouquet.c:1338
 #: src/epggrab/channel.c:885 src/dvr/dvr_db.c:5011 src/dvr/dvr_autorec.c:1487
@@ -1807,8 +1807,8 @@ msgid "Constant bitrate (CBR) mode."
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:232 src/input/mpegts/mpegts_mux_dvb.c:327
-#: src/input/mpegts/mpegts_mux_dvb.c:647 src/input/mpegts/mpegts_mux_dvb.c:875
-#: src/input/mpegts/mpegts_mux_dvb.c:1039
+#: src/input/mpegts/mpegts_mux_dvb.c:665 src/input/mpegts/mpegts_mux_dvb.c:893
+#: src/input/mpegts/mpegts_mux_dvb.c:1057
 msgid "Constellation"
 msgstr ""
 
@@ -1848,7 +1848,7 @@ msgstr ""
 msgid "Continue recording for x minutes after scheduled stop time"
 msgstr ""
 
-#: src/channels.c:530 src/dvr/dvr_db.c:4558 src/dvr/dvr_config.c:1070
+#: src/channels.c:535 src/dvr/dvr_db.c:4558 src/dvr/dvr_config.c:1070
 msgid "Continue recording for x minutes after scheduled stop time."
 msgstr ""
 
@@ -2067,7 +2067,7 @@ msgstr ""
 msgid "DAB Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:1102
+#: src/input/mpegts/mpegts_mux_dvb.c:1120
 msgid "DAB multiplex"
 msgstr ""
 
@@ -2095,7 +2095,7 @@ msgstr ""
 msgid "DES key"
 msgstr ""
 
-#: src/config.c:2713
+#: src/config.c:2706
 msgid "DSCP/TOS for streaming"
 msgstr ""
 
@@ -2103,7 +2103,7 @@ msgstr ""
 msgid "DTMB Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:1015
+#: src/input/mpegts/mpegts_mux_dvb.c:1033
 msgid "DTMB multiplex"
 msgstr ""
 
@@ -2159,7 +2159,7 @@ msgstr ""
 msgid "DVB multiplex"
 msgstr ""
 
-#: src/config.c:2762
+#: src/config.c:2755
 msgid "DVB scan files path"
 msgstr ""
 
@@ -2308,11 +2308,11 @@ msgstr ""
 msgid "Data path (if applicable)."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:347 src/input/mpegts/mpegts_mux_dvb.c:895
+#: src/input/mpegts/mpegts_mux_dvb.c:347 src/input/mpegts/mpegts_mux_dvb.c:913
 msgid "Data slice"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:348 src/input/mpegts/mpegts_mux_dvb.c:896
+#: src/input/mpegts/mpegts_mux_dvb.c:348 src/input/mpegts/mpegts_mux_dvb.c:914
 msgid "Data slice code."
 msgstr ""
 
@@ -2418,35 +2418,35 @@ msgid ""
 "limiting will not work correctly."
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:274
+#: src/transcoding/codec/profile_video_class.c:310
 msgid "Deinterlace"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:315
+#: src/transcoding/codec/profile_video_class.c:351
 msgid "Deinterlace fields only"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:299
+#: src/transcoding/codec/profile_video_class.c:335
 msgid "Deinterlace rate type"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:275
+#: src/transcoding/codec/profile_video_class.c:311
 msgid "Deinterlace."
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:211 src/input/mpegts/mpegts_mux_dvb.c:308
-#: src/input/mpegts/mpegts_mux_dvb.c:465 src/input/mpegts/mpegts_mux_dvb.c:587
-#: src/input/mpegts/mpegts_mux_dvb.c:628 src/input/mpegts/mpegts_mux_dvb.c:749
-#: src/input/mpegts/mpegts_mux_dvb.c:856 src/input/mpegts/mpegts_mux_dvb.c:927
-#: src/input/mpegts/mpegts_mux_dvb.c:1018
-#: src/input/mpegts/mpegts_mux_dvb.c:1105
+#: src/input/mpegts/mpegts_mux_dvb.c:465 src/input/mpegts/mpegts_mux_dvb.c:605
+#: src/input/mpegts/mpegts_mux_dvb.c:646 src/input/mpegts/mpegts_mux_dvb.c:767
+#: src/input/mpegts/mpegts_mux_dvb.c:874 src/input/mpegts/mpegts_mux_dvb.c:945
+#: src/input/mpegts/mpegts_mux_dvb.c:1036
+#: src/input/mpegts/mpegts_mux_dvb.c:1123
 #: src/input/mpegts/satip/satip_frontend.c:382
 #: src/input/mpegts/satip/satip_frontend.c:512
 #: src/input/mpegts/satip/satip_frontend.c:587
 msgid "Delivery system"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:120
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:121
 msgid "Demux path"
 msgstr ""
 
@@ -2462,7 +2462,7 @@ msgstr ""
 msgid "Descrambler EMM"
 msgstr ""
 
-#: src/config.c:2730
+#: src/config.c:2723
 msgid "Descrambler buffer (TS packets)"
 msgstr ""
 
@@ -2471,7 +2471,7 @@ msgid "Descrambling timeout (ms)"
 msgstr ""
 
 #: src/dvr/dvr_db.c:4684 src/dvr/dvr_db.c:4692
-#: src/transcoding/codec/profile_class.c:233
+#: src/transcoding/codec/profile_class.c:266
 msgid "Description"
 msgstr ""
 
@@ -2492,11 +2492,11 @@ msgstr ""
 msgid "Device path"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:136
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:137
 msgid "Device path in sysfs"
 msgstr ""
 
-#: src/config.c:2714
+#: src/config.c:2707
 msgid ""
 "Differentiated Services Code Point / Type of Service: Set the service class "
 "Tvheadend sends with each packet. Depending on the option selected this "
@@ -2593,7 +2593,7 @@ msgstr ""
 msgid "Disable syslog (all messages)"
 msgstr ""
 
-#: src/channels.c:394 src/profile.c:2339 src/epggrab/module/xmltv.c:1484
+#: src/channels.c:399 src/profile.c:2339 src/epggrab/module/xmltv.c:1484
 msgid "Disabled"
 msgstr ""
 
@@ -2784,7 +2784,7 @@ msgstr ""
 msgid "EPG scan time-out in seconds (30-7200)"
 msgstr ""
 
-#: src/channels.c:502
+#: src/channels.c:507
 msgid "EPG source"
 msgstr ""
 
@@ -2842,11 +2842,11 @@ msgstr ""
 msgid "Enable DBus"
 msgstr ""
 
-#: src/config.c:2657
+#: src/config.c:2652
 msgid "Enable HDHomeRun Server Emulation"
 msgstr ""
 
-#: src/config.c:2795
+#: src/config.c:2788
 msgid "Enable NTP driver"
 msgstr ""
 
@@ -2934,13 +2934,13 @@ msgstr ""
 msgid "Enable syslog"
 msgstr ""
 
-#: src/config.c:2785
+#: src/config.c:2778
 msgid ""
 "Enable system time updates. This will only work if the user running "
 "Tvheadend has rights to update the system clock (normally only root)."
 msgstr ""
 
-#: src/config.c:2658
+#: src/config.c:2653
 msgid ""
 "Enable the Tvheadend server to emulate an HDHomeRun server.  This allows "
 "LiveTV to be used on some media servers."
@@ -2950,7 +2950,7 @@ msgstr ""
 msgid "Enable this filter."
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:316
+#: src/transcoding/codec/profile_video_class.c:352
 msgid ""
 "Enable this option to only deinterlace fields, passing progressive frames "
 "unchanged. This is useful for mixed content, allowing progressive frames to "
@@ -2961,11 +2961,11 @@ msgstr ""
 msgid "Enable trace subsystems"
 msgstr ""
 
-#: src/config.c:2820
+#: src/config.c:2813
 msgid "Enable vainfo detection"
 msgstr ""
 
-#: src/config.c:2821
+#: src/config.c:2814
 msgid ""
 "Enable vainfo detection in order to show only encoders that are advertised "
 "by VAAPI driver.\n"
@@ -3016,7 +3016,7 @@ msgstr ""
 msgid "Enable/disable EPG data for the entry."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:274
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:275
 msgid "Enable/disable LNA."
 msgstr ""
 
@@ -3048,7 +3048,7 @@ msgstr ""
 msgid "Enable/disable pilot tone."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:163
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:164
 msgid "Enable/disable power save mode (if supported by the device)."
 msgstr ""
 
@@ -3088,7 +3088,7 @@ msgstr ""
 msgid "Enable/disable the bouquet."
 msgstr ""
 
-#: src/channels.c:417
+#: src/channels.c:422
 msgid "Enable/disable the channel."
 msgstr ""
 
@@ -3109,7 +3109,7 @@ msgstr ""
 msgid "Enable/disable the rating label."
 msgstr ""
 
-#: src/channels.c:1770
+#: src/channels.c:1775
 msgid "Enable/disable the tag."
 msgstr ""
 
@@ -3117,8 +3117,8 @@ msgstr ""
 msgid "Enable/disable tuner/adapter."
 msgstr ""
 
-#: src/access.c:1740 src/access.c:2278 src/access.c:2455 src/channels.c:395
-#: src/channels.c:416 src/channels.c:1769 src/service.c:172 src/imagecache.c:90
+#: src/access.c:1740 src/access.c:2278 src/access.c:2455 src/channels.c:400
+#: src/channels.c:421 src/channels.c:1774 src/service.c:172 src/imagecache.c:90
 #: src/esfilter.c:609 src/profile.c:324 src/bouquet.c:1212
 #: src/ratinglabels.c:637 src/epggrab/module.c:171 src/epggrab/channel.c:761
 #: src/dvr/dvr_db.c:4496 src/dvr/dvr_autorec.c:1144 src/dvr/dvr_timerec.c:536
@@ -3127,7 +3127,7 @@ msgstr ""
 #: src/input/mpegts/mpegts_mux.c:535 src/input/mpegts/mpegts_mux_sched.c:138
 #: src/input/mpegts/linuxdvb/linuxdvb_satconf.c:1547
 #: src/input/mpegts/satip/satip_satconf.c:354 src/timeshift.c:194
-#: src/transcoding/codec/profile_class.c:268
+#: src/transcoding/codec/profile_class.c:301
 #: src/input/mpegts/linuxdvb/linuxdvb_ca.c:615
 msgid "Enabled"
 msgstr ""
@@ -3292,7 +3292,7 @@ msgstr ""
 msgid "Expert"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:215
+#: src/transcoding/codec/profile_class.c:248
 msgid "Expert Settings"
 msgstr ""
 
@@ -3393,15 +3393,15 @@ msgid "FE supported"
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:332 src/input/mpegts/mpegts_mux_dvb.c:493
-#: src/input/mpegts/mpegts_mux_dvb.c:652 src/input/mpegts/mpegts_mux_dvb.c:880
+#: src/input/mpegts/mpegts_mux_dvb.c:670 src/input/mpegts/mpegts_mux_dvb.c:898
 msgid "FEC"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:254 src/input/mpegts/mpegts_mux_dvb.c:1061
+#: src/input/mpegts/mpegts_mux_dvb.c:254 src/input/mpegts/mpegts_mux_dvb.c:1079
 msgid "FEC high"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:259 src/input/mpegts/mpegts_mux_dvb.c:1066
+#: src/input/mpegts/mpegts_mux_dvb.c:259 src/input/mpegts/mpegts_mux_dvb.c:1084
 msgid "FEC low"
 msgstr ""
 
@@ -3585,7 +3585,7 @@ msgstr ""
 msgid "For example: 12610500. This frequency is 12610.5Mhz or 12.6105Ghz."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:546 src/input/mpegts/mpegts_mux_dvb.c:554
+#: src/input/mpegts/mpegts_mux_dvb.c:564 src/input/mpegts/mpegts_mux_dvb.c:572
 #: src/input/mpegts/iptv/iptv_mux.c:283
 msgid "For example: 312000000. This frequency is 312Mhz."
 msgstr ""
@@ -3622,7 +3622,7 @@ msgstr ""
 msgid "Force an initial EPG grab at start-up."
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:265
+#: src/transcoding/codec/profile_video_class.c:301
 msgid "Force hardware acceleration."
 msgstr ""
 
@@ -3634,7 +3634,7 @@ msgstr ""
 msgid "Force initial EPG grab at start-up (internal grabbers)"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:239
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:240
 msgid "Force old status"
 msgstr ""
 
@@ -3731,7 +3731,7 @@ msgstr ""
 msgid "Frame Rate"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:300
+#: src/transcoding/codec/profile_video_class.c:336
 msgid ""
 "Frame rate combines the two interlaced fields to create a single frame. "
 "Field rate processes each field independently, outputting as individual "
@@ -3750,7 +3750,7 @@ msgstr ""
 msgid "Free-form field, enter whatever you like here."
 msgstr ""
 
-#: src/access.c:1988 src/access.c:2334 src/access.c:2471 src/channels.c:1838
+#: src/access.c:1988 src/access.c:2334 src/access.c:2471 src/channels.c:1843
 #: src/dvr/dvr_db.c:5012 src/dvr/dvr_autorec.c:1488 src/dvr/dvr_timerec.c:680
 msgid "Free-form text field, enter whatever you like here."
 msgstr ""
@@ -3769,10 +3769,10 @@ msgid "Free-format text field. Enter whatever you like here."
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:219 src/input/mpegts/mpegts_mux_dvb.c:314
-#: src/input/mpegts/mpegts_mux_dvb.c:593 src/input/mpegts/mpegts_mux_dvb.c:634
-#: src/input/mpegts/mpegts_mux_dvb.c:678 src/input/mpegts/mpegts_mux_dvb.c:755
-#: src/input/mpegts/mpegts_mux_dvb.c:862 src/input/mpegts/mpegts_mux_dvb.c:1026
-#: src/input/mpegts/mpegts_mux_dvb.c:1111
+#: src/input/mpegts/mpegts_mux_dvb.c:611 src/input/mpegts/mpegts_mux_dvb.c:652
+#: src/input/mpegts/mpegts_mux_dvb.c:696 src/input/mpegts/mpegts_mux_dvb.c:773
+#: src/input/mpegts/mpegts_mux_dvb.c:880 src/input/mpegts/mpegts_mux_dvb.c:1044
+#: src/input/mpegts/mpegts_mux_dvb.c:1129
 msgid "Frequency (Hz)"
 msgstr ""
 
@@ -3783,7 +3783,7 @@ msgstr ""
 msgid "Frequency (MHz)"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:471 src/input/mpegts/mpegts_mux_dvb.c:933
+#: src/input/mpegts/mpegts_mux_dvb.c:471 src/input/mpegts/mpegts_mux_dvb.c:951
 msgid "Frequency (kHz)"
 msgstr ""
 
@@ -3796,13 +3796,13 @@ msgstr ""
 msgid "Friendly name"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:128
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:129
 #: src/input/mpegts/satip/satip_frontend.c:252
 #: src/input/mpegts/tvhdhomerun/tvhdhomerun_frontend.c:656
 msgid "Frontend number"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:104
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:105
 msgid "Frontend path"
 msgstr ""
 
@@ -3814,7 +3814,7 @@ msgstr ""
 msgid "Full mux RX mode supported"
 msgstr ""
 
-#: src/channels.c:1811
+#: src/channels.c:1816
 msgid ""
 "Full path to an icon used to depict the tag. This can be a TV network "
 "logotype, etc."
@@ -3857,7 +3857,7 @@ msgstr ""
 #: src/profile.c:1590 src/profile.c:1825 src/profile.c:2502
 #: src/satip/server.c:653 src/epggrab/module/xmltv.c:1497
 #: src/epggrab/module/xmltv.c:1599 src/dvr/dvr_config.c:924
-#: src/descrambler/caclient.c:276 src/transcoding/codec/profile_class.c:199
+#: src/descrambler/caclient.c:276 src/transcoding/codec/profile_class.c:232
 #: src/descrambler/cclient.c:1357 src/descrambler/dvbcam.c:848
 msgid "General Settings"
 msgstr ""
@@ -3901,8 +3901,8 @@ msgstr ""
 msgid "Gray"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:244 src/input/mpegts/mpegts_mux_dvb.c:768
-#: src/input/mpegts/mpegts_mux_dvb.c:1051
+#: src/input/mpegts/mpegts_mux_dvb.c:244 src/input/mpegts/mpegts_mux_dvb.c:786
+#: src/input/mpegts/mpegts_mux_dvb.c:1069
 msgid "Guard interval"
 msgstr ""
 
@@ -3946,7 +3946,7 @@ msgstr ""
 msgid "HDHomeRun ISDB-T frontend"
 msgstr ""
 
-#: src/config.c:2566
+#: src/config.c:2567
 msgid "HDHomerun IP Address"
 msgstr ""
 
@@ -4001,7 +4001,7 @@ msgstr ""
 msgid "HTTP Server Settings"
 msgstr ""
 
-#: src/config.c:2695
+#: src/config.c:2687
 msgid "HTTP User Agent"
 msgstr ""
 
@@ -4015,11 +4015,11 @@ msgid ""
 "might increase the recordings accuracy on very slow systems."
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:255
+#: src/transcoding/codec/profile_video_class.c:291
 msgid "Hardware acceleration"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:264
+#: src/transcoding/codec/profile_video_class.c:300
 msgid "Hardware acceleration details"
 msgstr ""
 
@@ -4027,18 +4027,18 @@ msgstr ""
 msgid "Hearing impaired"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:234
+#: src/transcoding/codec/profile_video_class.c:270
 msgid "Height (pixels) (0=no scaling)"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:235
+#: src/transcoding/codec/profile_video_class.c:271
 msgid ""
 "Height of the output video stream. Horizontal resolution is adjusted "
 "automatically to preserve aspect ratio. When set to 0, the input resolution "
 "is used."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:249 src/input/mpegts/mpegts_mux_dvb.c:1056
+#: src/input/mpegts/mpegts_mux_dvb.c:249 src/input/mpegts/mpegts_mux_dvb.c:1074
 msgid "Hierarchy"
 msgstr ""
 
@@ -4131,7 +4131,7 @@ msgstr ""
 msgid "IP address"
 msgstr ""
 
-#: src/config.c:2567
+#: src/config.c:2568
 msgid ""
 "IP address of the HDHomerun device. This is needed if you plan to run "
 "Tvheadend in a container and you want to stream from an HDHomerun without "
@@ -4142,7 +4142,7 @@ msgstr ""
 msgid "IP blocking"
 msgstr ""
 
-#: src/config.c:2579
+#: src/config.c:2580
 msgid ""
 "IP of the Docker host. Each HDHomeRun tuner sends data to Tvheadend through "
 "a socket. This lets you define the IP address that HDHomeRun needs to send "
@@ -4185,7 +4185,7 @@ msgstr ""
 msgid "IPTV thread #"
 msgstr ""
 
-#: src/config.c:2704
+#: src/config.c:2697
 msgid "IPTV threads"
 msgstr ""
 
@@ -4193,7 +4193,7 @@ msgstr ""
 msgid "ISDB-C Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:853
+#: src/input/mpegts/mpegts_mux_dvb.c:871
 msgid "ISDB-C multiplex"
 msgstr ""
 
@@ -4201,7 +4201,7 @@ msgstr ""
 msgid "ISDB-S Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:924
+#: src/input/mpegts/mpegts_mux_dvb.c:942
 msgid "ISDB-S multiplex"
 msgstr ""
 
@@ -4213,11 +4213,11 @@ msgstr ""
 msgid "ISDB-T Network"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:746
+#: src/input/mpegts/mpegts_mux_dvb.c:764
 msgid "ISDB-T multiplex"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:510
+#: src/input/mpegts/mpegts_mux_dvb.c:528
 msgid "ISI (Stream ID)"
 msgstr ""
 
@@ -4225,11 +4225,11 @@ msgstr ""
 msgid "Icon"
 msgstr ""
 
-#: src/channels.c:1810
+#: src/channels.c:1815
 msgid "Icon (full URL)"
 msgstr ""
 
-#: src/channels.c:468 src/channels.c:1820 src/ratinglabels.c:697
+#: src/channels.c:473 src/channels.c:1825 src/ratinglabels.c:697
 #: src/input/mpegts/iptv/iptv_mux.c:222
 msgid "Icon URL"
 msgstr ""
@@ -4242,7 +4242,7 @@ msgstr ""
 msgid "Icon base URL."
 msgstr ""
 
-#: src/channels.c:1828
+#: src/channels.c:1833
 msgid "Icon has title"
 msgstr ""
 
@@ -4330,13 +4330,13 @@ msgid ""
 "the access control from within the Tvheadend web interface."
 msgstr ""
 
-#: src/channels.c:1829
+#: src/channels.c:1834
 msgid ""
 "If set, presentation of the tag icon will not superimpose the tag name on "
 "top of the icon."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:184
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:185
 msgid ""
 "If set, the first bytes from the MPEG-TS stream are discarded. It may be "
 "required for some drivers or hardware which do not flush the MPEG-TS buffers "
@@ -4506,7 +4506,7 @@ msgstr ""
 msgid "Input base"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:194
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:195
 msgid "Input buffer (bytes)"
 msgstr ""
 
@@ -4514,7 +4514,7 @@ msgstr ""
 msgid "Input instance"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:112
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:113
 msgid "Input path"
 msgstr ""
 
@@ -4526,7 +4526,7 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-#: src/channels.c:1792 src/epggrab/module.c:55
+#: src/channels.c:1797 src/epggrab/module.c:55
 msgid "Internal"
 msgstr ""
 
@@ -4679,7 +4679,7 @@ msgstr ""
 msgid "LIB x264_x265"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:273
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:274
 msgid "LNA (low noise amplifier)"
 msgstr ""
 
@@ -4749,51 +4749,51 @@ msgstr ""
 msgid "Last updated from"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:778
+#: src/input/mpegts/mpegts_mux_dvb.c:796
 msgid "Layer A: Constellation"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:774
+#: src/input/mpegts/mpegts_mux_dvb.c:792
 msgid "Layer A: FEC"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:784
+#: src/input/mpegts/mpegts_mux_dvb.c:802
 msgid "Layer A: Segment count"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:791
+#: src/input/mpegts/mpegts_mux_dvb.c:809
 msgid "Layer A: Time interleaving"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:801
+#: src/input/mpegts/mpegts_mux_dvb.c:819
 msgid "Layer B: Constellation"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:797
+#: src/input/mpegts/mpegts_mux_dvb.c:815
 msgid "Layer B: FEC"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:807
+#: src/input/mpegts/mpegts_mux_dvb.c:825
 msgid "Layer B: Segment count"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:814
+#: src/input/mpegts/mpegts_mux_dvb.c:832
 msgid "Layer B: Time interleaving"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:824
+#: src/input/mpegts/mpegts_mux_dvb.c:842
 msgid "Layer C: Constellation"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:820
+#: src/input/mpegts/mpegts_mux_dvb.c:838
 msgid "Layer C: FEC"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:830
+#: src/input/mpegts/mpegts_mux_dvb.c:848
 msgid "Layer C: Segment count"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:837
+#: src/input/mpegts/mpegts_mux_dvb.c:855
 msgid "Layer C: Time interleaving"
 msgstr ""
 
@@ -4802,11 +4802,11 @@ msgstr ""
 msgid "Leisure hobbies"
 msgstr ""
 
-#: src/channels.c:490
+#: src/channels.c:495
 msgid "Limit EPG (days)"
 msgstr ""
 
-#: src/channels.c:491
+#: src/channels.c:496
 msgid ""
 "Limit EPG data to specified days to reduce the memory consumption. The zero "
 "value means unlimited EPG."
@@ -4846,7 +4846,7 @@ msgstr ""
 msgid "Linux DVB CAM Client"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:97
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:98
 msgid "Linux DVB frontend"
 msgstr ""
 
@@ -4886,11 +4886,11 @@ msgstr ""
 msgid "Local (server) time"
 msgstr ""
 
-#: src/config.c:2578
+#: src/config.c:2579
 msgid "Local IP Address"
 msgstr ""
 
-#: src/config.c:2591
+#: src/config.c:2592
 msgid "Local Socket Port Number"
 msgstr ""
 
@@ -5173,8 +5173,8 @@ msgstr ""
 msgid "Martial sports"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:365
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:396
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:366
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:397
 #: src/input/mpegts/satip/satip_frontend.c:494
 #: src/input/mpegts/satip/satip_frontend.c:535
 msgid "Master tuner"
@@ -5220,7 +5220,7 @@ msgstr ""
 msgid "Maximum # input streams"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:144
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:145
 #: src/input/mpegts/satip/satip.c:314
 msgid "Maximum PIDs"
 msgstr ""
@@ -5363,7 +5363,7 @@ msgstr ""
 msgid "Mode"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:286
+#: src/transcoding/codec/profile_video_class.c:322
 msgid ""
 "Mode to use for VAAPI Deinterlacing. 'Default' selects the most advanced "
 "deinterlacer, i.e. the mode appearing last in this list. Tip: MADI and MCDI "
@@ -5383,7 +5383,7 @@ msgstr ""
 msgid "Model number"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:489 src/input/mpegts/mpegts_mux_dvb.c:599
+#: src/input/mpegts/mpegts_mux_dvb.c:489 src/input/mpegts/mpegts_mux_dvb.c:617
 msgid "Modulation"
 msgstr ""
 
@@ -5511,14 +5511,14 @@ msgstr ""
 msgid "NVENC"
 msgstr ""
 
-#: src/channels.c:434 src/channels.c:1785 src/bouquet.c:1268
+#: src/channels.c:439 src/channels.c:1790 src/bouquet.c:1268
 #: src/memoryinfo.c:46 src/epggrab/module.c:152 src/epggrab/channel.c:674
 #: src/epggrab/channel.c:816 src/dvr/dvr_autorec.c:1152
 #: src/dvr/dvr_timerec.c:544 src/input/mpegts/mpegts_input.c:272
 #: src/input/mpegts/mpegts_mux.c:585
 #: src/input/mpegts/linuxdvb/linuxdvb_satconf.c:1553
 #: src/input/mpegts/satip/satip_satconf.c:361
-#: src/transcoding/codec/profile_class.c:224
+#: src/transcoding/codec/profile_class.c:257
 msgid "Name"
 msgstr ""
 
@@ -5550,7 +5550,7 @@ msgstr ""
 msgid "Name of the module used to grab EPG data."
 msgstr ""
 
-#: src/channels.c:503
+#: src/channels.c:508
 msgid ""
 "Name of the module, grabber or channel that should be used to update this "
 "channels EPG info."
@@ -5564,7 +5564,7 @@ msgstr ""
 msgid "Name of the profile."
 msgstr ""
 
-#: src/channels.c:1786
+#: src/channels.c:1791
 msgid "Name of the tag."
 msgstr ""
 
@@ -5576,7 +5576,7 @@ msgstr ""
 msgid "Name of the tuner/adapter."
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:225
+#: src/transcoding/codec/profile_class.c:258
 msgid "Name."
 msgstr ""
 
@@ -5854,7 +5854,7 @@ msgstr ""
 msgid "Not linked"
 msgstr ""
 
-#: src/channels.c:393 src/profile.c:2306
+#: src/channels.c:398 src/profile.c:2306
 msgid "Not set"
 msgstr ""
 
@@ -5866,7 +5866,7 @@ msgstr ""
 msgid "Not set (use channel or DVR configuration)"
 msgstr ""
 
-#: src/channels.c:446 src/epggrab/channel.c:669 src/epggrab/channel.c:834
+#: src/channels.c:451 src/epggrab/channel.c:669 src/epggrab/channel.c:834
 msgid "Number"
 msgstr ""
 
@@ -5919,7 +5919,7 @@ msgid ""
 "once, then send one repeat', etc."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:171
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:172
 msgid ""
 "Number of repeats for the tune requests (default is zero - no repeats). "
 "Note: this represents the number of repeats, not the number of requests - so "
@@ -5947,7 +5947,7 @@ msgstr ""
 msgid "Number of tsfile tuners"
 msgstr ""
 
-#: src/config.c:2610
+#: src/config.c:2613
 msgid "Number of tuners to export for HDHomeRun Server Emulation"
 msgstr ""
 
@@ -6055,7 +6055,7 @@ msgstr ""
 msgid "Only admin can watch the realtime log."
 msgstr ""
 
-#: src/channels.c:1801
+#: src/channels.c:1806
 msgid ""
 "Only allow users with this tag (or those with no tags at all) set in access "
 "configuration to use the tag."
@@ -6069,7 +6069,7 @@ msgstr ""
 msgid "Only preferred CA PID"
 msgstr ""
 
-#: src/config.c:2808
+#: src/config.c:2801
 msgid ""
 "Only update the system clock (doesn't affect NTP driver) if the delta "
 "between the system clock and DVB time is greater than this. This can help "
@@ -6107,7 +6107,7 @@ msgid "Options used when updating channels."
 msgstr ""
 
 #: src/input/mpegts/mpegts_network_dvb.c:306
-#: src/input/mpegts/mpegts_mux_dvb.c:535
+#: src/input/mpegts/mpegts_mux_dvb.c:553
 msgid "Orbital position"
 msgstr ""
 
@@ -6228,15 +6228,15 @@ msgid "PIN."
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:266 src/input/mpegts/mpegts_mux_dvb.c:338
-#: src/input/mpegts/mpegts_mux_dvb.c:886 src/input/mpegts/mpegts_mux_dvb.c:1073
+#: src/input/mpegts/mpegts_mux_dvb.c:904 src/input/mpegts/mpegts_mux_dvb.c:1091
 msgid "PLP ID"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:525
+#: src/input/mpegts/mpegts_mux_dvb.c:543
 msgid "PLS code"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:517
+#: src/input/mpegts/mpegts_mux_dvb.c:535
 msgid "PLS mode"
 msgstr ""
 
@@ -6261,7 +6261,7 @@ msgid ""
 "usage."
 msgstr ""
 
-#: src/config.c:2740
+#: src/config.c:2733
 msgid "Packet backlog"
 msgstr ""
 
@@ -6282,11 +6282,11 @@ msgstr ""
 msgid "Parental rating label UUID."
 msgstr ""
 
-#: src/config.c:2775
+#: src/config.c:2768
 msgid "Parse HbbTV info"
 msgstr ""
 
-#: src/config.c:2776
+#: src/config.c:2769
 msgid "Parse HbbTV information from services."
 msgstr ""
 
@@ -6344,7 +6344,7 @@ msgid ""
 "infomation."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:105
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:106
 msgid "Path to the frontend used by the device."
 msgstr ""
 
@@ -6385,7 +6385,7 @@ msgstr ""
 msgid "Performing arts"
 msgstr ""
 
-#: src/config.c:2752
+#: src/config.c:2745
 msgid ""
 "Periodically resets input error counters (when a new mux starts for the "
 "target tuner). Note that previous counters will be lost."
@@ -6431,7 +6431,7 @@ msgstr ""
 msgid "Pilot"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:328
+#: src/transcoding/codec/profile_video_class.c:364
 msgid "Pixel format"
 msgstr ""
 
@@ -6507,7 +6507,7 @@ msgstr ""
 msgid "Post-processor command"
 msgstr ""
 
-#: src/channels.c:529 src/dvr/dvr_db.c:4557 src/dvr/dvr_config.c:1069
+#: src/channels.c:534 src/dvr/dvr_db.c:4557 src/dvr/dvr_config.c:1069
 msgid "Post-recording padding"
 msgstr ""
 
@@ -6515,7 +6515,7 @@ msgstr ""
 msgid "Post-remove command"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:162
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:163
 msgid "Power save"
 msgstr ""
 
@@ -6543,7 +6543,7 @@ msgstr ""
 msgid "Pre-processor command"
 msgstr ""
 
-#: src/channels.c:514 src/dvr/dvr_db.c:4529 src/dvr/dvr_config.c:1053
+#: src/channels.c:519 src/dvr/dvr_db.c:4529 src/dvr/dvr_config.c:1053
 msgid "Pre-recording padding"
 msgstr ""
 
@@ -6636,7 +6636,7 @@ msgid ""
 "the assigned DVR configuration."
 msgstr ""
 
-#: src/channels.c:1800
+#: src/channels.c:1805
 msgid "Private"
 msgstr ""
 
@@ -6648,15 +6648,15 @@ msgstr ""
 msgid "Process Parental Rating Labels"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:277
+#: src/transcoding/codec/profile_class.c:310
 msgid "Profile"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:203
+#: src/transcoding/codec/profile_class.c:236
 msgid "Profile Settings"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:234
+#: src/transcoding/codec/profile_class.c:267
 msgid "Profile description."
 msgstr ""
 
@@ -6664,7 +6664,7 @@ msgstr ""
 msgid "Profile name"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:278
+#: src/transcoding/codec/profile_class.c:311
 msgid "Profile."
 msgstr ""
 
@@ -6777,11 +6777,11 @@ msgstr ""
 msgid "RTSP Protocol"
 msgstr ""
 
-#: src/config.c:2685
+#: src/config.c:2677
 msgid "RTSP UDP maximum port"
 msgstr ""
 
-#: src/config.c:2673
+#: src/config.c:2665
 msgid "RTSP UDP minimum port"
 msgstr ""
 
@@ -6912,7 +6912,7 @@ msgstr ""
 msgid "Reject exact match"
 msgstr ""
 
-#: src/channels.c:1821
+#: src/channels.c:1826
 msgid "Relative path to the imagecache copy of the icon."
 msgstr ""
 
@@ -7035,11 +7035,11 @@ msgstr ""
 msgid "Retransmission URL"
 msgstr ""
 
-#: src/channels.c:583
+#: src/channels.c:588
 msgid "Reuse EPG from"
 msgstr ""
 
-#: src/channels.c:584
+#: src/channels.c:589
 msgid "Reuse the EPG from another channel."
 msgstr ""
 
@@ -7183,7 +7183,7 @@ msgstr ""
 msgid "SAT>IP Client"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:544 src/input/mpegts/iptv/iptv_mux.c:281
+#: src/input/mpegts/mpegts_mux_dvb.c:562 src/input/mpegts/iptv/iptv_mux.c:281
 msgid "SAT>IP DVB-C frequency (Hz)"
 msgstr ""
 
@@ -7191,7 +7191,7 @@ msgstr ""
 msgid "SAT>IP DVB-S frequency (kHz)"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:552 src/input/mpegts/iptv/iptv_mux.c:273
+#: src/input/mpegts/mpegts_mux_dvb.c:570 src/input/mpegts/iptv/iptv_mux.c:273
 msgid "SAT>IP DVB-T frequency (Hz)"
 msgstr ""
 
@@ -7275,7 +7275,7 @@ msgstr ""
 msgid "SIGUSR2"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:229
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:230
 msgid "SNR multiplier"
 msgstr ""
 
@@ -7291,7 +7291,7 @@ msgstr ""
 msgid "STOP"
 msgstr ""
 
-#: src/config.c:2686
+#: src/config.c:2678
 msgid ""
 "Same as above, but for the maximum allowed port. Note that each stream "
 "requires two ports."
@@ -7317,7 +7317,7 @@ msgstr ""
 msgid "Satconf"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:354
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:355
 msgid "Satellite config"
 msgstr ""
 
@@ -7381,7 +7381,7 @@ msgstr ""
 msgid "Saved parental rating icon for once recording is complete."
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:245
+#: src/transcoding/codec/profile_video_class.c:281
 msgid "Scaling mode"
 msgstr ""
 
@@ -7389,7 +7389,7 @@ msgstr ""
 msgid "Scan after creation"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:250
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:251
 msgid "Scan grace period (seconds)"
 msgstr ""
 
@@ -7584,7 +7584,7 @@ msgid ""
 "and your coaxial cable wiring."
 msgstr ""
 
-#: src/config.c:2763
+#: src/config.c:2756
 msgid ""
 "Select the path to use for DVB scan configuration files. Typically dvb-apps "
 "stores these in /usr/share/dvb/. Leave blank to use the internal file set."
@@ -7652,7 +7652,7 @@ msgstr ""
 msgid "Send full PLAY cmd"
 msgstr ""
 
-#: src/config.c:2741
+#: src/config.c:2734
 msgid ""
 "Send previous stream frames to upper layers (before frame start is signalled "
 "in the stream). It may cause issues with some clients / players."
@@ -7790,12 +7790,12 @@ msgid ""
 "the stream."
 msgstr ""
 
-#: src/channels.c:551 src/service_mapper.c:588 src/bouquet.c:1312
+#: src/channels.c:556 src/service_mapper.c:588 src/bouquet.c:1312
 #: src/bouquet.c:1330 src/input/mpegts/mpegts_mux.c:658
 msgid "Services"
 msgstr ""
 
-#: src/channels.c:552
+#: src/channels.c:557
 msgid "Services associated with the channel."
 msgstr ""
 
@@ -7824,7 +7824,7 @@ msgid ""
 "Set the name of the server so you can distinguish multiple instances apart."
 msgstr ""
 
-#: src/config.c:2705
+#: src/config.c:2698
 msgid "Set the number of threads for IPTV to split load across more CPUs."
 msgstr ""
 
@@ -7892,7 +7892,7 @@ msgstr ""
 msgid "Signal level for IPTV sources (0-240)."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:219
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:220
 msgid "Signal multiplier"
 msgstr ""
 
@@ -7941,7 +7941,7 @@ msgstr ""
 msgid "Skip commercials"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:183
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:184
 msgid "Skip initial bytes"
 msgstr ""
 
@@ -8034,11 +8034,11 @@ msgid ""
 "and supply both to clients."
 msgstr ""
 
-#: src/channels.c:1777
+#: src/channels.c:1782
 msgid "Sort index"
 msgstr ""
 
-#: src/channels.c:1778
+#: src/channels.c:1783
 msgid "Sort index."
 msgstr ""
 
@@ -8181,7 +8181,7 @@ msgstr ""
 msgid "Start before"
 msgstr ""
 
-#: src/channels.c:515
+#: src/channels.c:520
 msgid ""
 "Start recording earlier than the EPG/timer defined start time by x minutes, "
 "for example if a program is to start at 13:00 and you set a padding of 5 "
@@ -8212,7 +8212,7 @@ msgstr ""
 msgid "Start time"
 msgstr ""
 
-#: src/config.c:2592
+#: src/config.c:2593
 msgid ""
 "Starting port number of the UDP listeners. The listeners listen for traffic "
 "from the HDHomerun tuners. This is needed if you plan to run Tvheadend in a "
@@ -8228,7 +8228,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:204
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:205
 msgid "Status period (ms)"
 msgstr ""
 
@@ -8248,7 +8248,7 @@ msgstr ""
 msgid "Storage space"
 msgstr ""
 
-#: src/transcoding/codec/profile_class.c:191
+#: src/transcoding/codec/profile_class.c:224
 msgid "Stream - Codec Profiles"
 msgstr ""
 
@@ -8280,7 +8280,7 @@ msgstr ""
 msgid "Stream Filters - Video"
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:941
+#: src/input/mpegts/mpegts_mux_dvb.c:959
 msgid "Stream ID"
 msgstr ""
 
@@ -8454,7 +8454,7 @@ msgid "Switch: %s"
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:322 src/input/mpegts/mpegts_mux_dvb.c:479
-#: src/input/mpegts/mpegts_mux_dvb.c:642 src/input/mpegts/mpegts_mux_dvb.c:870
+#: src/input/mpegts/mpegts_mux_dvb.c:660 src/input/mpegts/mpegts_mux_dvb.c:888
 msgid "Symbol rate (Sym/s)"
 msgstr ""
 
@@ -8470,6 +8470,14 @@ msgstr ""
 msgid "System"
 msgstr ""
 
+#: src/input/mpegts/mpegts_mux_dvb.c:510
+msgid "T2MI pid"
+msgstr ""
+
+#: src/input/mpegts/mpegts_mux_dvb.c:519
+msgid "T2MI plp"
+msgstr ""
+
 #: src/input/mpegts/satip/satip_frontend.c:223
 msgid "TCP Interleaved"
 msgstr ""
@@ -8478,47 +8486,47 @@ msgstr ""
 msgid "TCP Protocol"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:487
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:488
 msgid "TV Adapters - DTMB Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:444
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:445
 msgid "TV Adapters - Linux ATSC-C Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:433
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:434
 msgid "TV Adapters - Linux ATSC-T Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:497
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:498
 msgid "TV Adapters - Linux DAB Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:422
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:423
 msgid "TV Adapters - Linux DVB-C Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:348
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:349
 msgid "TV Adapters - Linux DVB-S Frontend (Master)"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:391
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:392
 msgid "TV Adapters - Linux DVB-S Slave Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:268
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:269
 msgid "TV Adapters - Linux DVB-T Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:466
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:467
 msgid "TV Adapters - Linux ISDB-C Frontend"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:477
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:478
 msgid "TV Adapters - Linux ISDB-S Frontend (Master)"
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:455
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:456
 msgid "TV Adapters - Linux ISDB-T Frontend"
 msgstr ""
 
@@ -8598,11 +8606,11 @@ msgstr ""
 msgid "Tag files with metadata"
 msgstr ""
 
-#: src/channels.c:562
+#: src/channels.c:567
 msgid "Tags"
 msgstr ""
 
-#: src/channels.c:563
+#: src/channels.c:568
 msgid "Tags linked/to link to the channel."
 msgstr ""
 
@@ -8654,7 +8662,7 @@ msgstr ""
 msgid "The CAM slot status."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:233 src/input/mpegts/mpegts_mux_dvb.c:1040
+#: src/input/mpegts/mpegts_mux_dvb.c:233 src/input/mpegts/mpegts_mux_dvb.c:1058
 msgid ""
 "The COFDM modulation used by the mux. If you're not sure of the value leave "
 "as AUTO."
@@ -8711,11 +8719,11 @@ msgstr ""
 msgid "The PIN to use."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:526
+#: src/input/mpegts/mpegts_mux_dvb.c:544
 msgid "The Physical Layer Scrambling (PLS) code used on the mux."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:518
+#: src/input/mpegts/mpegts_mux_dvb.c:536
 msgid "The Physical Layer Scrambling (PLS) mode used on the mux."
 msgstr ""
 
@@ -8741,13 +8749,21 @@ msgstr ""
 msgid "The SAT>IP's discovered IP address."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:230
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:231
 msgid ""
 "The SNR level reported by the driver is multiplied with this value and "
 "divided by 100."
 msgstr ""
 
-#: src/channels.c:459
+#: src/input/mpegts/mpegts_mux_dvb.c:511
+msgid "The T2MI pid used for the mux."
+msgstr ""
+
+#: src/input/mpegts/mpegts_mux_dvb.c:520
+msgid "The T2MI plp used for the mux."
+msgstr ""
+
+#: src/channels.c:464
 msgid ""
 "The URL to the icon to use/used for the channel. The local files are "
 "referred using file:/// URLs."
@@ -8792,15 +8808,15 @@ msgstr ""
 msgid "The audio stream types the filter should apply to."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:226 src/input/mpegts/mpegts_mux_dvb.c:762
-#: src/input/mpegts/mpegts_mux_dvb.c:1033
+#: src/input/mpegts/mpegts_mux_dvb.c:226 src/input/mpegts/mpegts_mux_dvb.c:780
+#: src/input/mpegts/mpegts_mux_dvb.c:1051
 msgid ""
 "The bandwidth the mux uses. If you're not sure of the value leave as AUTO "
 "but be aware that tuning may fail as some drivers do not like the AUTO "
 "setting."
 msgstr ""
 
-#: src/channels.c:573
+#: src/channels.c:578
 msgid "The bouquet the channel is associated with."
 msgstr ""
 
@@ -8824,7 +8840,7 @@ msgstr ""
 msgid "The channel name the entry will record from."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:672
+#: src/input/mpegts/mpegts_mux_dvb.c:690
 msgid "The channel on the cable provider's network."
 msgstr ""
 
@@ -8838,7 +8854,7 @@ msgstr ""
 msgid "The channel this service is mapped to."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:687
+#: src/input/mpegts/mpegts_mux_dvb.c:705
 msgid "The channel's name or callsign as set by the cable provider."
 msgstr ""
 
@@ -8910,27 +8926,27 @@ msgid ""
 "Access Entries tab)."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:212 src/input/mpegts/mpegts_mux_dvb.c:1019
+#: src/input/mpegts/mpegts_mux_dvb.c:212 src/input/mpegts/mpegts_mux_dvb.c:1037
 msgid ""
 "The delivery system the mux uses. Make sure that your tuner supports the "
 "delivery system selected here."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:1106
+#: src/input/mpegts/mpegts_mux_dvb.c:1124
 msgid "The delivery system used by the mux."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:309 src/input/mpegts/mpegts_mux_dvb.c:857
+#: src/input/mpegts/mpegts_mux_dvb.c:309 src/input/mpegts/mpegts_mux_dvb.c:875
 msgid "The delivery system used by your cable provider."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:466 src/input/mpegts/mpegts_mux_dvb.c:588
-#: src/input/mpegts/mpegts_mux_dvb.c:629 src/input/mpegts/mpegts_mux_dvb.c:750
-#: src/input/mpegts/mpegts_mux_dvb.c:928
+#: src/input/mpegts/mpegts_mux_dvb.c:466 src/input/mpegts/mpegts_mux_dvb.c:606
+#: src/input/mpegts/mpegts_mux_dvb.c:647 src/input/mpegts/mpegts_mux_dvb.c:768
+#: src/input/mpegts/mpegts_mux_dvb.c:946
 msgid "The delivery system used by your provider."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:121
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:122
 msgid "The demux path used by the device."
 msgstr ""
 
@@ -8938,7 +8954,7 @@ msgstr ""
 msgid "The device ID."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:137
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:138
 msgid "The device path in sysfs filesystem (/sys)."
 msgstr ""
 
@@ -8958,20 +8974,20 @@ msgid ""
 "than this year."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:255 src/input/mpegts/mpegts_mux_dvb.c:1062
+#: src/input/mpegts/mpegts_mux_dvb.c:255 src/input/mpegts/mpegts_mux_dvb.c:1080
 msgid ""
 "The forward error correction high value. Most people will not need to change "
 "this setting."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:260 src/input/mpegts/mpegts_mux_dvb.c:1067
+#: src/input/mpegts/mpegts_mux_dvb.c:260 src/input/mpegts/mpegts_mux_dvb.c:1085
 msgid ""
 "The forward error correction low value. Most people will not need to change "
 "this setting."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:333 src/input/mpegts/mpegts_mux_dvb.c:653
-#: src/input/mpegts/mpegts_mux_dvb.c:881
+#: src/input/mpegts/mpegts_mux_dvb.c:333 src/input/mpegts/mpegts_mux_dvb.c:671
+#: src/input/mpegts/mpegts_mux_dvb.c:899
 msgid "The forward error correction used on the mux."
 msgstr ""
 
@@ -8982,11 +8998,11 @@ msgid ""
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:220 src/input/mpegts/mpegts_mux_dvb.c:315
-#: src/input/mpegts/mpegts_mux_dvb.c:594 src/input/mpegts/mpegts_mux_dvb.c:635
-#: src/input/mpegts/mpegts_mux_dvb.c:679 src/input/mpegts/mpegts_mux_dvb.c:756
-#: src/input/mpegts/mpegts_mux_dvb.c:863 src/input/mpegts/mpegts_mux_dvb.c:934
-#: src/input/mpegts/mpegts_mux_dvb.c:1027
-#: src/input/mpegts/mpegts_mux_dvb.c:1112
+#: src/input/mpegts/mpegts_mux_dvb.c:612 src/input/mpegts/mpegts_mux_dvb.c:653
+#: src/input/mpegts/mpegts_mux_dvb.c:697 src/input/mpegts/mpegts_mux_dvb.c:774
+#: src/input/mpegts/mpegts_mux_dvb.c:881 src/input/mpegts/mpegts_mux_dvb.c:952
+#: src/input/mpegts/mpegts_mux_dvb.c:1045
+#: src/input/mpegts/mpegts_mux_dvb.c:1130
 msgid "The frequency of the mux (in Hertz)."
 msgstr ""
 
@@ -8994,12 +9010,12 @@ msgstr ""
 msgid "The frequency of the mux/transponder in Hertz."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:129
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:130
 msgid "The frontend number given to the device."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:245 src/input/mpegts/mpegts_mux_dvb.c:769
-#: src/input/mpegts/mpegts_mux_dvb.c:1052
+#: src/input/mpegts/mpegts_mux_dvb.c:245 src/input/mpegts/mpegts_mux_dvb.c:787
+#: src/input/mpegts/mpegts_mux_dvb.c:1070
 msgid ""
 "The guard interval used by the mux. If you're not sure of the value leave as "
 "AUTO."
@@ -9009,13 +9025,13 @@ msgstr ""
 msgid "The hash algorithm type for the digest authentication."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:250 src/input/mpegts/mpegts_mux_dvb.c:1057
+#: src/input/mpegts/mpegts_mux_dvb.c:250 src/input/mpegts/mpegts_mux_dvb.c:1075
 msgid ""
 "The hierarchical modulation used by the mux. Most people will not need to "
 "change this setting."
 msgstr ""
 
-#: src/channels.c:469
+#: src/channels.c:474
 msgid "The imagecache path to the icon to use/used for the channel."
 msgstr ""
 
@@ -9023,7 +9039,7 @@ msgstr ""
 msgid "The imagecache path to the icon to use/used for the rating label."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:113
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:114
 msgid "The input path used by the device."
 msgstr ""
 
@@ -9050,51 +9066,51 @@ msgid ""
 "than this year."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:779
+#: src/input/mpegts/mpegts_mux_dvb.c:797
 msgid "The layer A constellation."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:775
+#: src/input/mpegts/mpegts_mux_dvb.c:793
 msgid "The layer A forward error correction."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:785
+#: src/input/mpegts/mpegts_mux_dvb.c:803
 msgid "The layer A segment count."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:792
+#: src/input/mpegts/mpegts_mux_dvb.c:810
 msgid "The layer A time interleaving."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:802
+#: src/input/mpegts/mpegts_mux_dvb.c:820
 msgid "The layer B constellation."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:798
+#: src/input/mpegts/mpegts_mux_dvb.c:816
 msgid "The layer B forward error correction."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:808
+#: src/input/mpegts/mpegts_mux_dvb.c:826
 msgid "The layer B segment count."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:815
+#: src/input/mpegts/mpegts_mux_dvb.c:833
 msgid "The layer B time interleaving."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:825
+#: src/input/mpegts/mpegts_mux_dvb.c:843
 msgid "The layer C constellation."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:821
+#: src/input/mpegts/mpegts_mux_dvb.c:839
 msgid "The layer C forward error correction."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:831
+#: src/input/mpegts/mpegts_mux_dvb.c:849
 msgid "The layer C segment count."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:838
+#: src/input/mpegts/mpegts_mux_dvb.c:856
 msgid "The layer C time interleaving."
 msgstr ""
 
@@ -9102,7 +9118,7 @@ msgstr ""
 msgid "The length of time (in seconds) to play the mux (1 hour = 3600)."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:145
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:146
 msgid "The limit for the PID filter (driver or hardware)."
 msgstr ""
 
@@ -9144,7 +9160,7 @@ msgid ""
 "seconds)."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:251
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:252
 msgid ""
 "The maximum amount of time to allow this adapter to complete a scan of a "
 "mux. If you're getting failed or incomplete scans (for example, missing "
@@ -9221,7 +9237,7 @@ msgid ""
 "match programs that have at least this rating."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:490 src/input/mpegts/mpegts_mux_dvb.c:600
+#: src/input/mpegts/mpegts_mux_dvb.c:490 src/input/mpegts/mpegts_mux_dvb.c:618
 msgid "The modulation used on the mux."
 msgstr ""
 
@@ -9241,7 +9257,7 @@ msgstr ""
 msgid "The name (or frequency) the mux is on."
 msgstr ""
 
-#: src/channels.c:435
+#: src/channels.c:440
 msgid ""
 "The name given to/of the channel (This is how it'll appear in your EPG.)"
 msgstr ""
@@ -9325,7 +9341,7 @@ msgstr ""
 msgid "The number of ISDB-T (Terresterial) tuners to export."
 msgstr ""
 
-#: src/config.c:2731
+#: src/config.c:2724
 msgid ""
 "The number of MPEG-TS packets Tvheadend buffers in case there is a delay "
 "receiving CA keys. "
@@ -9335,7 +9351,7 @@ msgstr ""
 msgid "The number of allowed connections this user can make to the server."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:195
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:196
 msgid ""
 "The number of bytes to buffer. By default, linuxdvb's input buffer is 18800 "
 "bytes long. The accepted range is 18800-1880000 bytes."
@@ -9369,7 +9385,7 @@ msgstr ""
 msgid "The number of services currently mapped to channels."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:536
+#: src/input/mpegts/mpegts_mux_dvb.c:554
 msgid "The orbital position of the satellite the mux is on."
 msgstr ""
 
@@ -9382,7 +9398,7 @@ msgid "The outcome of the last scan performed."
 msgstr ""
 
 #: src/input/mpegts/mpegts_mux_dvb.c:267 src/input/mpegts/mpegts_mux_dvb.c:339
-#: src/input/mpegts/mpegts_mux_dvb.c:887 src/input/mpegts/mpegts_mux_dvb.c:1074
+#: src/input/mpegts/mpegts_mux_dvb.c:905 src/input/mpegts/mpegts_mux_dvb.c:1092
 msgid ""
 "The physical layer pipe ID. Most people will not need to change this setting."
 msgstr ""
@@ -9395,7 +9411,7 @@ msgstr ""
 msgid "The polarization used on the mux."
 msgstr ""
 
-#: src/channels.c:447
+#: src/channels.c:452
 msgid ""
 "The position the channel will appear on your EPG. This is not used by "
 "Tvheadend internally, but rather intended to be used by HTSP clients for "
@@ -9419,8 +9435,8 @@ msgstr ""
 msgid "The provider's network name."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:328 src/input/mpegts/mpegts_mux_dvb.c:648
-#: src/input/mpegts/mpegts_mux_dvb.c:876
+#: src/input/mpegts/mpegts_mux_dvb.c:328 src/input/mpegts/mpegts_mux_dvb.c:666
+#: src/input/mpegts/mpegts_mux_dvb.c:894
 msgid ""
 "The quadrature amplitude modulation (QAM) used by the mux. If you're not "
 "sure of the value leave as AUTO."
@@ -9449,7 +9465,7 @@ msgid ""
 "for more information on what the various rules do."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:355
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:356
 msgid "The satellite configuration to use."
 msgstr ""
 
@@ -9539,8 +9555,8 @@ msgstr ""
 msgid "The service's encryption status."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:366
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:397
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:367
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:398
 msgid ""
 "The signal from the standard universal LNB can be split using a simple "
 "coaxial splitter (no multiswitch) to several outputs. In this case, the "
@@ -9550,7 +9566,7 @@ msgid ""
 "(position, polarization, lo-hi)."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:220
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:221
 msgid ""
 "The signal level reported by the driver is multiplied with this value and "
 "divided by 100."
@@ -9560,7 +9576,7 @@ msgstr ""
 msgid "The start time of the recording."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:511 src/input/mpegts/mpegts_mux_dvb.c:942
+#: src/input/mpegts/mpegts_mux_dvb.c:529 src/input/mpegts/mpegts_mux_dvb.c:960
 msgid "The stream ID used for the mux."
 msgstr ""
 
@@ -9591,7 +9607,7 @@ msgstr ""
 msgid "The symbol rate used on the mux/transponder."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:643 src/input/mpegts/mpegts_mux_dvb.c:871
+#: src/input/mpegts/mpegts_mux_dvb.c:661 src/input/mpegts/mpegts_mux_dvb.c:889
 msgid "The symbol rate."
 msgstr ""
 
@@ -9624,7 +9640,7 @@ msgstr ""
 msgid "The total scheduled duration."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:238 src/input/mpegts/mpegts_mux_dvb.c:1045
+#: src/input/mpegts/mpegts_mux_dvb.c:238 src/input/mpegts/mpegts_mux_dvb.c:1063
 msgid ""
 "The transmission/OFDM mode used by the mux. If you're not sure of the value "
 "leave as AUTO but be aware that tuning may fail as some drivers do not like "
@@ -9653,7 +9669,7 @@ msgid ""
 "the standard priority value is used. See Help for details."
 msgstr ""
 
-#: src/config.c:2696
+#: src/config.c:2688
 msgid "The user agent string for the build-in HTTP client."
 msgstr ""
 
@@ -9682,12 +9698,12 @@ msgid ""
 "on some."
 msgstr ""
 
-#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:328
+#: src/input/mpegts/linuxdvb/linuxdvb_frontend.c:329
 #: src/input/mpegts/satip/satip_frontend.c:451
 msgid "This tuner"
 msgstr ""
 
-#: src/config.c:2796
+#: src/config.c:2789
 msgid ""
 "This will create an NTP driver (using shmem interface) that you can feed "
 "into ntpd. This can be run without root privileges, but generally the "
@@ -9936,7 +9952,7 @@ msgid ""
 "code to be converted."
 msgstr ""
 
-#: src/input/mpegts/mpegts_mux_dvb.c:237 src/input/mpegts/mpegts_mux_dvb.c:1044
+#: src/input/mpegts/mpegts_mux_dvb.c:237 src/input/mpegts/mpegts_mux_dvb.c:1062
 msgid "Transmission mode"
 msgstr ""
 
@@ -10017,7 +10033,7 @@ msgstr ""
 msgid "Turn off LNB when idle"
 msgstr ""
 
-#: src/config.c:2637
+#: src/config.c:2636
 msgid "Tvheadend model name for HDHomeRun Server Emulation"
 msgstr ""
 
@@ -10025,7 +10041,7 @@ msgstr ""
 msgid "Tvheadend server name"
 msgstr ""
 
-#: src/epggrab/module.c:161 src/transcoding/codec/profile_class.c:259
+#: src/epggrab/module.c:161 src/transcoding/codec/profile_class.c:292
 msgid "Type"
 msgstr ""
 
@@ -10369,11 +10385,11 @@ msgstr ""
 msgid "Update disabled"
 msgstr ""
 
-#: src/config.c:2784
+#: src/config.c:2777
 msgid "Update time"
 msgstr ""
 
-#: src/config.c:2807
+#: src/config.c:2800
 msgid "Update tolerance (ms)"
 msgstr ""
 
@@ -10413,13 +10429,13 @@ msgstr ""
 msgid "Use DVR configuration"
 msgstr ""
 
-#: src/channels.c:539 src/dvr/dvr_config.c:1448
+#: src/channels.c:544 src/dvr/dvr_config.c:1448
 msgid ""
 "Use EITp/f to decide event start/stop. This is also known as \"Accurate "
 "Recording\". See Help for details."
 msgstr ""
 
-#: src/channels.c:538 src/dvr/dvr_config.c:1447
+#: src/channels.c:543 src/dvr/dvr_config.c:1447
 msgid "Use EPG running state"
 msgstr ""
 
@@ -10507,7 +10523,7 @@ msgstr ""
 msgid "Use fuzzy mapping if merging same name"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:256
+#: src/transcoding/codec/profile_video_class.c:292
 msgid "Use hardware acceleration for decoding if available."
 msgstr ""
 
@@ -10527,7 +10543,7 @@ msgstr ""
 msgid "Use service IDs as channel numbers"
 msgstr ""
 
-#: src/channels.c:1793
+#: src/channels.c:1798
 msgid "Use tag internally (don't expose to clients)."
 msgstr ""
 
@@ -10567,7 +10583,7 @@ msgstr ""
 msgid "User does not have access to channel"
 msgstr ""
 
-#: src/channels.c:458
+#: src/channels.c:463
 msgid "User icon"
 msgstr ""
 
@@ -10618,7 +10634,7 @@ msgstr ""
 msgid "VA-API"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:285
+#: src/transcoding/codec/profile_video_class.c:321
 msgid "VAAPI Deinterlace mode"
 msgstr ""
 
@@ -10668,7 +10684,7 @@ msgstr ""
 msgid "Video codec profile"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:329
+#: src/transcoding/codec/profile_video_class.c:365
 msgid "Video pixel format."
 msgstr ""
 
@@ -10803,7 +10819,7 @@ msgid ""
 "searched."
 msgstr ""
 
-#: src/config.c:2611
+#: src/config.c:2614
 msgid ""
 "When Tvheadend is acting as an HDHomeRun Server (emulating an HDHomeRun "
 "device for downstream media devices to stream Live TV) then we tell clients "
@@ -10816,7 +10832,7 @@ msgid ""
 "automatically.  Set to zero for Tvheadend to use a default value."
 msgstr ""
 
-#: src/config.c:2638
+#: src/config.c:2637
 msgid ""
 "When Tvheadend is acting as an HDHomeRun Server (emulating an HDHomeRun "
 "device for downstream media devices to stream Live TV) then we use this as "
@@ -10884,7 +10900,7 @@ msgstr ""
 msgid "When the service was last seen during a mux scan."
 msgstr ""
 
-#: src/config.c:2674
+#: src/config.c:2666
 msgid ""
 "When using RTSP IPTV, this correspond to the minimum port bind on the client "
 "(this server), sent to the server. This is especially useful when using "
@@ -11166,7 +11182,7 @@ msgstr ""
 msgid "twoloop: Two loop searching method"
 msgstr ""
 
-#: src/transcoding/codec/profile_video_class.c:229
+#: src/transcoding/codec/profile_video_class.c:265
 msgid "video"
 msgstr ""
 
